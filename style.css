@@ -89,3 +89,8 @@ main {
     color: #495057;
     font-size: 18px;
 }
+
+.btn-copiar.ativo {
+    color: white;
+    background: #0A3871;
+}
