@@ -9,7 +9,7 @@
 .logoAlura {
     margin-left: 10px;
     padding-top: 10px;
-    width: 5%;
+    width: 7%;
 }
 
 main {
@@ -32,8 +32,10 @@ main {
 
 .mensagem {
     background: white;
-    background-image: url(imagens/boneco.png);
+    background-image: url(imagens/criptografar.png);
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
     border-radius: 24px;
     color: #0A3871;
     margin-left: 90px;
@@ -61,6 +63,12 @@ main {
     width: 328px;
 }
 
+.btn-encriptar:active {
+    color: #0A3871;
+    background: #D8DFE8;
+    transition: 600ms;
+}
+
 .btn-desencriptar{
     background: #D8DFE8;
     border: 1px solid #0A3871;
@@ -85,12 +93,15 @@ main {
     position: fixed;
 }
 
-.informacao {
+.informacaotexto {
     color: #495057;
-    font-size: 18px;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: italic;
 }
 
-.btn-copiar.ativo {
+.btn-copiar:active {
     color: white;
     background: #0A3871;
+    transition: 600ms;
 }

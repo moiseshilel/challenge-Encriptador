@@ -55,6 +55,5 @@ btnCopiar.addEventListener('click', copiaTexto);
 function copiaTexto(e)  {
 
     navigator.clipboard.writeText(mensagem.value);
-    btnCopiar.classList.add("ativo");
 
 }
