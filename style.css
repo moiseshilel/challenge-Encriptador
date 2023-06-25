@@ -80,6 +80,12 @@ main {
     width: 328px;
 }
 
+.btn-desencriptar:active {
+    color: white;
+    background: #0A3871;
+    transition: 600ms;
+}
+
 .btn-copiar {
     border: 1px solid #0A3871;
     border-radius: 24px;
@@ -104,4 +110,64 @@ main {
     color: white;
     background: #0A3871;
     transition: 600ms;
+}
+
+@media (max-width: 480px) {
+    .logoAlura {
+        margin-left: 0px;
+        width: auto;
+    }
+
+    .text-area {
+        width: 95%;
+        height: 50%;
+        margin-top: 20px;
+    }
+
+    .botoes {
+        display: block;
+    }
+    .btn-encriptar {
+        width: 95%;
+    }
+
+    .btn-desencriptar {
+        width: 95%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    main {
+        margin-left: 10px;
+        display: block;
+    }
+
+    h6.informacaotexto {
+        font-size: 18px;
+        line-height: 0;
+        margin-top: 10px;
+    }
+
+    .mensagem {
+        position: unset;
+    }
+
+    textarea.mensagem {
+        display: block;
+        margin-left: 0px;
+        margin-top: 20px;
+        padding-left: 0px;
+        width: 95%;
+        height: 260px;
+
+    }
+
+    .btn-copiar {
+        height: 67px;
+        margin-left: 0px;
+        margin-top: 20px;
+        position: absolute;
+        width: 90%;
+    }
+    
 }
